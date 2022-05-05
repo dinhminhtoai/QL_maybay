@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="CuoiKyNet.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="Style/MasterAD.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="home">
+            <div class="home-items">
+                <div class="logo">
+                    <a href="#">
+                        <img class="logosize" src="image/logo14.png" alt="">
+                    </a>
+                    <%--<label for="chk">
+                        <input class="check1" type="checkbox" />
+                        <span class="check2"></span>
+                    </label>--%>
+                </div>
+                <div>
+                    <nav>
+                        <a href="ADThongTinNhanVien.aspx">Nhân viên</a>
+                        <a href="ADChuyenBay.aspx">Chuyến bay</a>
+                        <a href="ADMayBay.aspx">Máy bay</a>
+                        <a href="USBanVe.aspx">Bán vé</a>
+                        <a href="ADThongBao.aspx">Thông báo</a>                      
+                        <a href="ADThongKeVe.aspx">Thống kê</a>
+                        <div class="animation"></div>
+                        <%--<asp:Image ImageUrl="image/logo.png" CssClass="avt" ID="Image1" runat="server" Height="60px" Width="60px"/>--%>
+                        <ul class="dropdown">
+                            <li>
+                                <a href="#">
+                                    <asp:Label style="width:100%;" ID="lbUser" runat="server"></asp:Label>
+                                    <i class="fas fa-sort-down"></i>
+                                </a>
+                                <ul class="dropdown-content">
+                           
+                                    <li><a href="DoiMatKhau.aspx"><i class="fas fa-key" style="padding-right:30px"></i>Đổi mật khẩu</a></li>
+                                    <li style="display:flex;">
+                                        <asp:LinkButton ID="btnDangXuat" runat="server" OnClick="btnDangXuat_Click"><i class="fas fa-sign-out-alt" style="padding-right:30px"></i>Đăng xuất</asp:LinkButton>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                
+            </div>
+        </div>
+    </form>
+</body>
+</html>

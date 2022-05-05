@@ -1,0 +1,8 @@
+﻿Mã vé: 9
+ Tên máy bay: IT04 Airlines
+ Họ và tên khách hàng: Võ Lũy
+ Loại ghế: Hạng Thương Gia
+ Nơi xuất phát: Hồ Chí Minh
+ Nơi đến: Đà Nẵng
+ Ngày đi: 4/12/2020
+ Giờ bay: 4:00
