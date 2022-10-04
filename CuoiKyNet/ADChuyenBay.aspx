@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="ADChuyenBay.aspx.cs" Inherits="CuoiKyNet.ADChuyenBay" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPklk;k;laceHolder1" runat="server">
     <link rel="stylesheet" href="Style/styleTT.css"/>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <p class="header-text"><b>Chuyến bay</b></p>
